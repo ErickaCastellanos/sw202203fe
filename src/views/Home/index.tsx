@@ -1,4 +1,4 @@
-//
+//Pagina principal
 const Home = () => {
   return (
     //Elemento que se debe renderizar, pseudoFormato de sintaxis que el compilador

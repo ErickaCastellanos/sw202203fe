@@ -17,4 +17,6 @@ const Card = ({children, title, ..._props}: PropsWithChildren<CardProps>)=>{
     </div>
   )
 }
+
+//La exporto para que pueda llamarla en otro archivos
 export default Card;
