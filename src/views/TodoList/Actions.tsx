@@ -5,6 +5,7 @@ interface IPropsActions {
     actionHandler: (action: string) => void;
 }
 
+//
 const Actions = ({ actionHandler = (action: string) => { } }: IPropsActions) => {
     //Recibe el evento click
     const clickHandler = (e: unknown) => {

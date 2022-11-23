@@ -4,7 +4,6 @@ import './App.css';
 import TodoList from '@views/TodoList';
 
 //Los componentes pueden ser reutilizables
-
 function App() {
   return (
    <>
