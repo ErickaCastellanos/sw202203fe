@@ -1,7 +1,6 @@
 import Card from "@components/Card";
-import Buttons from "@components/Buttons";
-//Por medio de este const llamo a las funciones de la carpeta Buttons
-const {Button, PrimaryButton} = Buttons;
+import {Button, PrimaryButton} from "@components/Buttons";
+
 const Cards = () => {
   return (
     <>

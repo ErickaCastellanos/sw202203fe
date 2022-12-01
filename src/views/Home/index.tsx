@@ -1,9 +1,9 @@
-//Pagina principal
+import Page from "@components/Page";
 const Home = () => {
   return (
-    //Elemento que se debe renderizar, pseudoFormato de sintaxis que el compilador
-    //interpreta y lo convierte en funciones react nativas
-    <h1>Hola Mundo</h1>
+    <Page pageTitle="Home">
+      <h1>Hola Mundo</h1>
+    </Page>
   );
 }
 export default Home;
